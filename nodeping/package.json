@@ -1,0 +1,14 @@
+{
+    "name": "nodeping",
+    "version": "1.0.0",
+    "description": "Node.JS simple REST Service",
+    "author": "Robero Messora <robymes@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "4.14.0",
+        "uuid": "2.0.2"
+    }
+}
