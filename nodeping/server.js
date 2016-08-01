@@ -23,6 +23,12 @@ try {
         });
     });
 
+    app.get("/", function (req, res) {
+        res.status(200).send({
+            status: "ok"
+        });
+    });
+
     server = app.listen(8080, function () {
         var host = server.address().address,
             port = server.address().port;
